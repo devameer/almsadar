@@ -1,0 +1,123 @@
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575px) {  
+}
+@media (max-width: 768px) {
+.about-us p{
+  margin-bottom: 50px;
+  }
+  .headerTop{
+    height: auto;
+  }
+
+.headerTop h5{
+  font-size: 15px
+}
+.headerTop .social-icons , .headerTop h5{
+  margin-bottom: 20px
+}
+.slider .slider-photo{
+  height: auto;
+}
+.slider .slider-photo .slider-photo-overlay h1{
+    height: 380px;
+  padding-top: 20%}
+  .market-3qhrat .market-image{
+    width: 300px !important;
+    height: 300px !importants;
+    margin: auto;
+    margin-bottom: 50px
+  }
+  footer h3{
+    text-align: center;
+    margin-top: 30px;
+    
+  }
+  .information-section .media .media-body .share{
+    position: static
+  }
+  footer h3::after{
+    right: 45%
+  }
+  footer ul{
+    text-align: center
+  }
+  footer .social-icons {
+    margin: 26px auto;
+    width: 171px;
+}
+.sell-3qhrat .sell-slide{
+  position: static;
+  height: auto;
+}
+.sell-3qhrat .sell-image{
+  position: static
+}
+.sell-3qhrat .sell-text{
+
+  -webkit-clip-path: none;
+  clip-path: none;
+
+ 
+      width: 100%;
+      position: static
+}
+}
+
+@media (max-width: 991px) {
+  .sell-3qhrat .sell-image img ,
+  .sell-3qhrat .sell-text{
+    -webkit-clip-path: none;
+        clip-path: none;
+  }
+  .services .card {
+    margin: auto;
+    margin-bottom: 50px;
+}
+  .sell-3qhrat .sell-image{
+    width: 100%
+  }
+.sell-3qhrat .sell-text{
+  padding: 10px
+}
+.market-3qhrat .market-image{
+
+  margin: auto;
+  margin-bottom: 50px
+}
+}
+@media (max-width: 1199px) {
+  .sell-3qhrat .sell-image{
+    width: 100%
+  }
+  .navbar-expand-lg .navbar-nav .nav-link{
+    font-size: 15px
+  }
+  .sell-3qhrat .sell-text p{
+    font-size: 20px
+  }
+ }
+
+
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767px) {
+
+ }
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991px) {
+.market-3qhrat .market-image{
+
+}
+ }
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199px) {
+.market-3qhrat .market-image{
+
+}
+ }
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {}

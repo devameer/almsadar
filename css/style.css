@@ -1,0 +1,1168 @@
+/* start global styles */
+@import url('https://www.fontstatic.com/f=sky');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 0;
+
+}
+body{
+  direction: rtl;
+	font-family: Tahoma, Verdana, Segoe, sans-serif;
+  
+}
+a,input,textarea{
+	font-family: Tahoma, Verdana, Segoe, sans-serif;
+}
+a{
+  color: #222
+}
+a:hover{
+  color: #222
+}
+/* End global styles */
+
+
+/*start header Top styles */
+.headerTop{
+  background: #bd2127;
+  padding:5px 0
+}
+.headerTop .social-icons{
+
+}
+.headerTop .social-icon{
+  display: inline-block;
+ 
+
+
+  text-align: center;
+  line-height: 25px;
+  font-size: 10px;
+  margin-left: 5px;
+  transition: all 0.5s;
+  border: 1px solid transparent;
+  
+}
+.headerTop .social-icon a{
+	color: #bd2127;
+	display: block;
+	width: 25px;
+  height: 25px;
+	background: #fff;
+	border-radius: 50%;
+	
+
+}
+.headerTop .social-icon a:hover{
+  background: transparent;
+  border: 1px solid #fff;
+  color: #fff
+}
+.headerTop h5{
+  color: #fff;
+  font-size: 15px;
+  margin: 0
+}
+/*End header Top styles */
+/*start navBar styles */
+.navbar{
+
+background: #fff;
+z-index: 9;
+border-bottom: 1px solid #ccc;
+transition: all 1s;
+padding: 0
+
+
+}
+.selected{
+  -webkit-box-shadow: 0 2px 4px -1px rgba(0,0,0,0.06), 0 4px 5px 0 rgba(0,0,0,0.06), 0 1px 10px 0 rgba(0,0,0,0.08);
+box-shadow: 0 2px 4px -1px rgba(0,0,0,0.06), 0 4px 5px 0 rgba(0,0,0,0.06), 0 1px 10px 0 rgba(0,0,0,0.08);
+position: fixed;
+top: 0;
+width: 100%;
+transition: all 1s;
+right: 0;
+}
+.navbar-light .navbar-brand{
+  width: 147px
+}
+.navbar-light .navbar-brand img{
+  width: 120%
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+  color: #222;
+  font-size: 15px;
+  padding: 9px 15px;
+  font-weight: bold;
+  transition: all 0.5s
+}
+.navbar-expand-lg .navbar-nav .nav-link.active,
+.navbar-expand-lg .navbar-nav .nav-link:hover{
+  background: #4f8e4d;
+  color: #fff;
+  border-radius: 5px
+
+}
+/*End navBar styles */
+/*Start  slider styles */
+.slider .filter {
+  padding: 30px 40px;
+  background: #f8f8f8;
+}
+.slider .filter h2{
+line-height: 2;
+font-weight: 400;
+font-size: 20px;
+margin-bottom:30px
+}
+.slider .filter h2 span{
+  font-weight: 600;
+  font-size: 25px
+
+}
+.slider .filter form{
+
+}.slider .filter form label{
+  font-weight: 600;
+  font-size: 15px
+}
+.slider .filter form button{
+  background: #bd2127;
+  color: #fff;
+  padding: 10px 30px
+}
+.slider .slider-photo{
+  background: url(../img/slide-1.png);
+  height: 688px;
+  width: 100%;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.slider .slider-photo .slider-photo-overlay{
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+.slider .slider-photo .slider-photo-overlay h1{
+  text-align: center;
+padding-top: 30%;
+line-height: 2;
+color: #fff;
+font-weight: bold;
+}
+/*End slider styles */
+/*Start Services styles */
+.services{
+padding: 70px 0;
+overflow: hidden
+}
+.services .card{
+  text-align: center;
+}
+.services .card i{
+  font-size: 50px;
+  color: #4f8e4d;
+  margin: 10px 0
+
+
+}
+.services .card h4{
+  margin: 25px 0;
+  font-weight: 700
+}
+.services .card p{
+  text-align: right;
+      font-size: 14px;
+      color: #666;
+      height: 130px;
+      line-height: 1.7;
+
+}
+.services .card button{
+  background: #4f8e4d;
+color: #fff;
+padding:10px 50px;
+margin-top: 20px;
+cursor: pointer;
+}
+.services .card:hover,
+.services .card:hover p,
+.services .card:hover i{
+  background: #bd2127;
+  color: #fff
+}
+.services .card:hover button{
+  background: #fff;
+color: #222;
+}
+/*End Services styles */
+/*Start  sell 3qhrat styles */
+.sell-3qhrat{
+  padding-top: 70px
+}
+.sell-3qhrat .sell-slide{
+  position: relative;
+height: 400px;
+overflow: hidden
+}
+.sell-3qhrat .sell-image{
+    width: 930px;
+    width: 100%
+}
+.sell-3qhrat .sell-image img{
+
+      width: 100%
+
+
+
+}
+.sell-3qhrat .sell-text{
+  background: #4f8e4d;
+  height: 100%;
+  -webkit-clip-path: polygon(0 0, 70% 0, 100% 100%, 0% 100%);
+  clip-path: polygon(0 0, 77% 0, 100% 100%, 0% 100%);
+	padding: 80px 12% 0 0;
+	      position: absolute;
+      top: 0;
+      left: 0;
+      width: 50%
+}
+.sell-3qhrat .sell-text p{
+color: #fff;
+font-weight: 600;
+line-height: 2.5
+}
+
+/*End  sell 3qhrat styles */
+/*Start  market 3qhrat styles */
+.market-3qhrat{
+  padding: 70px 0 50px;
+  background: #fafafa
+}
+
+.market-3qhrat .market-image{
+width: 300px;
+height: 300px;
+position: relative;
+overflow: hidden;
+margin-bottom: 50px
+}
+.market-3qhrat .market-image img{
+max-width: 100%;
+transition: all 5s
+}
+.market-3qhrat .market-image .market-image-ovevlay{
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+border: 4px solid #4f8e4d;
+transition: all 0.5s
+
+}
+.market-3qhrat .market-image .market-image-ovevlay .image-ovevlay-text{
+  position: absolute;
+  bottom: 0;
+  background: #4f8e4d;
+  width: 100%;
+  padding-top: 10px;
+  transition: all 0.5s
+
+
+}
+.market-3qhrat .market-image .market-image-ovevlay .image-ovevlay-text ul{
+padding-right: 45px
+}
+.market-3qhrat .market-image .market-image-ovevlay .image-ovevlay-text li{
+  display: inline-block;
+  margin-left:10%;
+  color: #fff;
+  font-size: 17px;
+
+}
+.market-3qhrat .market-image:hover .market-image-ovevlay{
+  background: rgba(0, 0, 0, 0.5);
+  border: 4px solid transparent;
+}
+.market-3qhrat .market-image:hover img{
+  transform: scale(1.2)
+}
+.market-3qhrat .market-image:hover .image-ovevlay-text{
+  background: transparent
+}
+/*End  market 3qhrat styles */
+/*Start  about us styles */
+.about-us{
+  padding: 50px 0
+}
+.about-us h3{
+  margin-bottom: 30px;
+  font-weight: 600;
+  font-size: 23px
+}
+.about-us p{
+  font-size: 17px;
+  font-weight: 300
+}
+.about-us .card{
+  border: none;
+  margin: auto;
+margin-bottom: 30px;
+}
+.about-us .card .icon{
+width: 80px;
+height: 80px;
+background: #bd2127;
+color: #fff;
+line-height: 80px;
+font-size: 30px;
+margin: auto;
+border-radius: 50%
+
+}
+.about-us .card .icon i{
+
+}
+.about-us .card h4{
+font-weight: 600;
+margin: 30px 0
+}
+.about-us .card p{
+color: #777
+}
+/*End  about us styles */
+/*Start  footer styles */
+footer{
+  padding: 70px 0;
+  background: #222;
+
+}
+footer h3{
+  margin-bottom: 50px;
+  color: #fff;
+  position: relative;
+  font-size: 20px
+}
+footer h3::after{
+  content: '';
+  position: absolute;
+  bottom: -20px;
+right: 0;
+  width: 50px;
+  height: 3px;
+  background: #bd2127
+}
+footer  ul{
+  color: #fff
+}
+footer  ul li,footer  ul li a{
+  margin-bottom: 10px;
+  color: #999
+}
+footer  ul li a:hover{
+	color: #fff;
+	text-decoration: none
+}
+footer  ul li i{
+  margin-left: 20px
+}
+footer hr{
+      border-top: 1px solid rgba(255,255,255,.1);
+}
+footer h4{
+  color: #aaa;
+  font-size: 17px;
+  padding-bottom: 20px;
+  margin: 0
+}
+footer .social-icons{
+margin-top: 20px
+}
+footer .social-icons .social-icon{
+  display: inline-block;
+
+  margin-left: 10px;
+  font-size: 13px;
+  text-align: center;
+  line-height: 30px;
+  transition: all 0.5s
+}
+
+footer .social-icons .social-icon a{
+	color: #fff;
+	display: block;
+  width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	background: #828282;
+	
+	
+}
+footer .social-icons .social-icon a:hover{
+  background: #bd2127
+}
+footer p{
+  color: #999
+
+}
+footer form button{
+  background: #bd2127;
+  color: #fff;
+  width: 48%;
+  border-radius: 0 !important
+}
+footer form button:last-child{
+  margin-right: 2%
+}
+.footer-bottom{
+  background: #bd2127;
+  color: #fff;
+	padding-top: 10px;
+	padding-bottom: 1px
+}
+.footer-bottom h5{
+	font-size: 17px
+}
+/*End  footer styles */
+/*Start information page styles */
+.information-page,.news-page{
+  padding: 50px 0
+}
+.information-section{
+  margin: 30px 0
+}
+.information-section .media{
+  padding: 30px;
+  position: relative;
+  border: 1px solid #eee
+
+}
+.information-section .media img{
+max-width: 100%;
+margin-bottom: 20px;}
+.information-section .media .media-body{
+}
+.information-section .media .media-body h5{
+  font-size: 25px;
+      font-weight: 600;
+      margin-bottom: 20px;
+      color: #bd2127;
+}
+.information-section .media .media-body p{
+  font-size: 15px;
+  color: #888
+}
+.information-section .media .media-body .share{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding-left: 30px
+}
+.information-section .media .media-body .social-icons{
+
+}
+.information-section .media .media-body .social-icons .social-icon{
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background: #828282;
+  color: #fff;
+  line-height: 35px;
+  text-align: center;
+  font-size: 14px;
+  margin-left: 5px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin-bottom: 5px
+}
+.information-section .media .media-body .social-icons .social-icon:hover{
+  background: #bd2127
+}
+.information-section .media .media-body button{
+float: left;
+background: #bd2127;
+color: #fff;
+transition: all 0.5s
+
+}
+.information-section .media .media-body button:hover{
+  color: #bd2127;
+  border: 1px solid #bd2127;
+  background: transparent
+}
+
+/*End information page styles */
+/*Start contact us page styles */
+.contact-us-page{
+  padding: 100px 0;
+  background: #fafafa
+}
+#map{
+  width: 100%;
+  height: 596px;
+}
+.contact-us-page .contact-details {
+  padding: 20px 0 70px;
+}
+.contact-us-page .contact-details .contact-detail .icon {
+  font-size: 60px;
+  transition: all 0.5s;
+  margin-bottom: 0;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin: auto;
+}
+.contact-us-page .contact-details .contact-detail .icon:hover {
+  color: #fff;
+  background: #bd2127;
+  border: 10px solid #bd2127;
+}
+.contact-us-page .contact-details .contact-detail h5 {
+  font-size: 19px;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-top: 20px;
+}
+.contact-us-page .contact-details .contact-detail p {
+  font-size: 14px;
+  color: #999;
+}
+.contact-us-page h2{
+  font-size: 20px;
+  font-weight: 600;
+  padding: 0 10%
+  
+}
+.contact-us-page hr{
+  width: 70%;
+  margin: 30px 50px 50px
+}
+.contact-us-page form{
+  padding: 0 10%;
+  padding-bottom: 50px
+  
+}
+.contact-us-page form input, .contact-us-page form textarea {
+    border: none;
+    outline: none;
+    padding: 12px 18px;
+    width: 100%;
+    background: #fff;
+    border: 1px solid #e0e0dd;
+    -webkit-appearance: none;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    color: #aaaaaa;
+    font-family: "Lato";
+    font-weight: 300;
+    margin-bottom: 16px;
+    -webkit-transition: border 0.25s linear;
+    -moz-transition: border 0.25s linear;
+    transition: border 0.25s linear;
+}
+.contact-us-page form textarea{
+  height: 200px
+}
+.contact-us-page form button{
+  background: #bd2127;
+  color: #fff;
+  padding: 10px 40px
+}
+.contact-us-page form button:hover{
+  border:1px solid  #bd2127;
+  color: #222;
+  background: none
+}
+
+/*End contact us page styles */
+
+/*start single post page styles */
+.single-post-page{
+  padding: 100px 0;
+  background: #fafafa
+}
+.single-post-page .single-img{
+  margin-bottom: 50px
+}
+.single-post-page p{
+  color: #666;
+  line-height: 1.6;
+  font-size: 20px
+}
+.single-post-page h5{
+  margin-top: 30px;
+
+}
+.single-post-page h5 a{
+  color: #2b64e0
+  
+}
+/*End single post page styles */
+/*start about us page styles */
+.about-us-page{
+  padding: 100px 0;
+  background: #fafafa
+}
+.about-us-page p{
+  color: #666;
+  line-height: 1.6;
+  font-size: 20px
+}
+.about-us-page h5{
+  margin-top: 30px;
+
+}
+.about-us-page h5 a{
+  color: #2b64e0
+  
+} 
+/*End about us page styles */
+/*start aqars view  page styles */
+.aqars-view-page{
+  padding: 100px 0
+}
+.aqars-view-page .card{
+  margin: auto;
+  margin-bottom: 50px;
+}
+.aqars-view-page .card h4{
+  font-weight: 600;
+  color: #495057;
+  font-size: 20px;
+}
+.aqars-view-page .card p{
+  color: #888;
+  font-size: 15px
+}
+.card .card-body a{
+  background: #BD2127;
+  color: #fff;
+  font-size: 15px;
+  margin-top: 20px;
+}
+.card .card-body a:hover{
+  color: #bd2127;
+  border: 1px solid #bd2127;
+  background: transparent;
+}
+/*End aqars view page styles */
+/*start view  page styles */
+.view-page{
+  padding: 100px 0
+}
+.view-page table{
+  margin-top: 50px;
+margin-bottom: 100px}
+.view-page table tr td:first-child,
+.view-page table tr td:nth-child(3) {
+  color: #9d9d9d;  
+}
+
+.view-page table tr td:nth-child(2),
+.view-page table tr td:nth-child(4) {
+  color: #2b64e0;  
+  font-weight: 600
+}
+
+
+/*End view page styles */
+
+.sec-title{
+margin-bottom: 70px;
+position: relative;
+font-size: 25px;
+font-weight: 600
+}
+h1.sec-title{
+  margin-bottom: 70px;
+  position: relative;
+  font-size: 25px;
+  font-weight: 600
+  }
+.sec-title::after{
+  content: '';
+  position: absolute;
+  bottom: -15px;
+right: 48%;
+display: block;
+  width: 50px;
+  height: 2px;
+  background: #bd2127
+
+}
+.sec-desc{
+line-height: 1.5;
+color: #757575
+}
+.irs-with-grid {
+    height: 60px;
+    direction: ltr;
+}
+.custom-select{display:inline-block;max-width:100%;height:calc(2.25rem + 2px);padding:.375rem .75rem .375rem 1.75rem;line-height:1.25;color:#495057;vertical-align:middle;background:#fff url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 5'%3E%3Cpath fill='%23333' d='M2 0L0 2h4zm0 5L0 3h4z'/%3E%3C/svg%3E") no-repeat left .75rem center;background-size:8px 10px;border:1px solid rgba(0,0,0,.15);border-radius:.25rem;-webkit-appearance:none;-moz-appearance:none;appearance:none}
+.loading-screen{
+  position: fixed;
+  z-index: 100000;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #fff
+}
+
+.cssload-dots {
+	width: 0;
+	height: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	margin: auto;
+	outline: 1px solid red;
+	filter: url(#goo);
+		-o-filter: url(#goo);
+		-ms-filter: url(#goo);
+		-webkit-filter: url(#goo);
+		-moz-filter: url(#goo);
+}
+
+.cssload-dot {
+	width: 0;
+	height: 0;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.cssload-dot:before {
+	content: "";
+	width: 44px;
+	height: 44px;
+	border-radius: 63px;
+	background: rgb(251,211,1);
+	position: absolute;
+	left: 50%;
+	transform: translateY(0);
+		-o-transform: translateY(0);
+		-ms-transform: translateY(0);
+		-webkit-transform: translateY(0);
+		-moz-transform: translateY(0);
+	margin-left: -21.5px;
+	margin-top: -21.5px;
+}
+
+
+
+.cssload-dot:nth-child(5):before {
+	z-index: 100;
+	width: 56.5px;
+	height: 56.5px;
+	margin-left: -28.75px;
+	margin-top: -28.75px;
+	animation: cssload-dot-colors 4.6s ease infinite;
+		-o-animation: cssload-dot-colors 4.6s ease infinite;
+		-ms-animation: cssload-dot-colors 4.6s ease infinite;
+		-webkit-animation: cssload-dot-colors 4.6s ease infinite;
+		-moz-animation: cssload-dot-colors 4.6s ease infinite;
+}
+
+
+.cssload-dot:nth-child(1) {
+	animation: cssload-dot-rotate-1 4.6s 0s linear infinite;
+		-o-animation: cssload-dot-rotate-1 4.6s 0s linear infinite;
+		-ms-animation: cssload-dot-rotate-1 4.6s 0s linear infinite;
+		-webkit-animation: cssload-dot-rotate-1 4.6s 0s linear infinite;
+		-moz-animation: cssload-dot-rotate-1 4.6s 0s linear infinite;
+}
+.cssload-dot:nth-child(1):before {
+	background-color: rgb(255,50,112);
+	animation: cssload-dot-move 4.6s 0s ease infinite;
+		-o-animation: cssload-dot-move 4.6s 0s ease infinite;
+		-ms-animation: cssload-dot-move 4.6s 0s ease infinite;
+		-webkit-animation: cssload-dot-move 4.6s 0s ease infinite;
+		-moz-animation: cssload-dot-move 4.6s 0s ease infinite;
+}
+
+.cssload-dot:nth-child(2) {
+	animation: cssload-dot-rotate-2 4.6s 1.15s linear infinite;
+		-o-animation: cssload-dot-rotate-2 4.6s 1.15s linear infinite;
+		-ms-animation: cssload-dot-rotate-2 4.6s 1.15s linear infinite;
+		-webkit-animation: cssload-dot-rotate-2 4.6s 1.15s linear infinite;
+		-moz-animation: cssload-dot-rotate-2 4.6s 1.15s linear infinite;
+}
+.cssload-dot:nth-child(2):before {
+	background-color: rgb(32,139,241);
+	animation: cssload-dot-move 4.6s 1.15s ease infinite;
+		-o-animation: cssload-dot-move 4.6s 1.15s ease infinite;
+		-ms-animation: cssload-dot-move 4.6s 1.15s ease infinite;
+		-webkit-animation: cssload-dot-move 4.6s 1.15s ease infinite;
+		-moz-animation: cssload-dot-move 4.6s 1.15s ease infinite;
+}
+
+.cssload-dot:nth-child(3) {
+	animation: cssload-dot-rotate-3 4.6s 2.3s linear infinite;
+		-o-animation: cssload-dot-rotate-3 4.6s 2.3s linear infinite;
+		-ms-animation: cssload-dot-rotate-3 4.6s 2.3s linear infinite;
+		-webkit-animation: cssload-dot-rotate-3 4.6s 2.3s linear infinite;
+		-moz-animation: cssload-dot-rotate-3 4.6s 2.3s linear infinite;
+}
+.cssload-dot:nth-child(3):before {
+	background-color: rgb(175,225,2);
+	animation: cssload-dot-move 4.6s 2.3s ease infinite;
+		-o-animation: cssload-dot-move 4.6s 2.3s ease infinite;
+		-ms-animation: cssload-dot-move 4.6s 2.3s ease infinite;
+		-webkit-animation: cssload-dot-move 4.6s 2.3s ease infinite;
+		-moz-animation: cssload-dot-move 4.6s 2.3s ease infinite;
+}
+
+.cssload-dot:nth-child(4) {
+	animation: cssload-dot-rotate-4 4.6s 3.45s linear infinite;
+		-o-animation: cssload-dot-rotate-4 4.6s 3.45s linear infinite;
+		-ms-animation: cssload-dot-rotate-4 4.6s 3.45s linear infinite;
+		-webkit-animation: cssload-dot-rotate-4 4.6s 3.45s linear infinite;
+		-moz-animation: cssload-dot-rotate-4 4.6s 3.45s linear infinite;
+}
+.cssload-dot:nth-child(4):before {
+	background-color: rgb(251,211,1);
+	animation: cssload-dot-move 4.6s 3.45s ease infinite;
+		-o-animation: cssload-dot-move 4.6s 3.45s ease infinite;
+		-ms-animation: cssload-dot-move 4.6s 3.45s ease infinite;
+		-webkit-animation: cssload-dot-move 4.6s 3.45s ease infinite;
+		-moz-animation: cssload-dot-move 4.6s 3.45s ease infinite;
+}
+
+@keyframes cssload-dot-move {
+	0% {
+		transform: translateY(0);
+	}
+	18%, 22% {
+		transform: translateY(-88px);
+	}
+	40%, 100% {
+		transform: translateY(0);
+	}
+}
+
+@-o-keyframes cssload-dot-move {
+	0% {
+		-o-transform: translateY(0);
+	}
+	18%, 22% {
+		-o-transform: translateY(-88px);
+	}
+	40%, 100% {
+		-o-transform: translateY(0);
+	}
+}
+
+@-ms-keyframes cssload-dot-move {
+	0% {
+		-ms-transform: translateY(0);
+	}
+	18%, 22% {
+		-ms-transform: translateY(-88px);
+	}
+	40%, 100% {
+		-ms-transform: translateY(0);
+	}
+}
+
+@-webkit-keyframes cssload-dot-move {
+	0% {
+		-webkit-transform: translateY(0);
+	}
+	18%, 22% {
+		-webkit-transform: translateY(-88px);
+	}
+	40%, 100% {
+		-webkit-transform: translateY(0);
+	}
+}
+
+@-moz-keyframes cssload-dot-move {
+	0% {
+		-moz-transform: translateY(0);
+	}
+	18%, 22% {
+		-moz-transform: translateY(-88px);
+	}
+	40%, 100% {
+		-moz-transform: translateY(0);
+	}
+}
+
+@keyframes cssload-dot-colors {
+	0% {
+		background-color: rgb(251,211,1);
+	}
+	25% {
+		background-color: rgb(255,50,112);
+	}
+	50% {
+		background-color: rgb(32,139,241);
+	}
+	75% {
+		background-color: rgb(175,225,2);
+	}
+	100% {
+		background-color: rgb(251,211,1);
+	}
+}
+
+@-o-keyframes cssload-dot-colors {
+	0% {
+		background-color: rgb(251,211,1);
+	}
+	25% {
+		background-color: rgb(255,50,112);
+	}
+	50% {
+		background-color: rgb(32,139,241);
+	}
+	75% {
+		background-color: rgb(175,225,2);
+	}
+	100% {
+		background-color: rgb(251,211,1);
+	}
+}
+
+@-ms-keyframes cssload-dot-colors {
+	0% {
+		background-color: rgb(251,211,1);
+	}
+	25% {
+		background-color: rgb(255,50,112);
+	}
+	50% {
+		background-color: rgb(32,139,241);
+	}
+	75% {
+		background-color: rgb(175,225,2);
+	}
+	100% {
+		background-color: rgb(251,211,1);
+	}
+}
+
+@-webkit-keyframes cssload-dot-colors {
+	0% {
+		background-color: rgb(251,211,1);
+	}
+	25% {
+		background-color: rgb(255,50,112);
+	}
+	50% {
+		background-color: rgb(32,139,241);
+	}
+	75% {
+		background-color: rgb(175,225,2);
+	}
+	100% {
+		background-color: rgb(251,211,1);
+	}
+}
+
+@-moz-keyframes cssload-dot-colors {
+	0% {
+		background-color: rgb(251,211,1);
+	}
+	25% {
+		background-color: rgb(255,50,112);
+	}
+	50% {
+		background-color: rgb(32,139,241);
+	}
+	75% {
+		background-color: rgb(175,225,2);
+	}
+	100% {
+		background-color: rgb(251,211,1);
+	}
+}
+
+@keyframes cssload-dot-rotate-1 {
+	0% {
+		transform: rotate(-105deg);
+	}
+	100% {
+		transform: rotate(270deg);
+	}
+}
+
+@-o-keyframes cssload-dot-rotate-1 {
+	0% {
+		-o-transform: rotate(-105deg);
+	}
+	100% {
+		-o-transform: rotate(270deg);
+	}
+}
+
+@-ms-keyframes cssload-dot-rotate-1 {
+	0% {
+		-ms-transform: rotate(-105deg);
+	}
+	100% {
+		-ms-transform: rotate(270deg);
+	}
+}
+
+@-webkit-keyframes cssload-dot-rotate-1 {
+	0% {
+		-webkit-transform: rotate(-105deg);
+	}
+	100% {
+		-webkit-transform: rotate(270deg);
+	}
+}
+
+@-moz-keyframes cssload-dot-rotate-1 {
+	0% {
+		-moz-transform: rotate(-105deg);
+	}
+	100% {
+		-moz-transform: rotate(270deg);
+	}
+}
+
+@keyframes cssload-dot-rotate-2 {
+	0% {
+		transform: rotate(165deg);
+	}
+	100% {
+		transform: rotate(540deg);
+	}
+}
+
+@-o-keyframes cssload-dot-rotate-2 {
+	0% {
+		-o-transform: rotate(165deg);
+	}
+	100% {
+		-o-transform: rotate(540deg);
+	}
+}
+
+@-ms-keyframes cssload-dot-rotate-2 {
+	0% {
+		-ms-transform: rotate(165deg);
+	}
+	100% {
+		-ms-transform: rotate(540deg);
+	}
+}
+
+@-webkit-keyframes cssload-dot-rotate-2 {
+	0% {
+		-webkit-transform: rotate(165deg);
+	}
+	100% {
+		-webkit-transform: rotate(540deg);
+	}
+}
+
+@-moz-keyframes cssload-dot-rotate-2 {
+	0% {
+		-moz-transform: rotate(165deg);
+	}
+	100% {
+		-moz-transform: rotate(540deg);
+	}
+}
+
+@keyframes cssload-dot-rotate-3 {
+	0% {
+		transform: rotate(435deg);
+	}
+	100% {
+		transform: rotate(810deg);
+	}
+}
+
+@-o-keyframes cssload-dot-rotate-3 {
+	0% {
+		-o-transform: rotate(435deg);
+	}
+	100% {
+		-o-transform: rotate(810deg);
+	}
+}
+
+@-ms-keyframes cssload-dot-rotate-3 {
+	0% {
+		-ms-transform: rotate(435deg);
+	}
+	100% {
+		-ms-transform: rotate(810deg);
+	}
+}
+
+@-webkit-keyframes cssload-dot-rotate-3 {
+	0% {
+		-webkit-transform: rotate(435deg);
+	}
+	100% {
+		-webkit-transform: rotate(810deg);
+	}
+}
+
+@-moz-keyframes cssload-dot-rotate-3 {
+	0% {
+		-moz-transform: rotate(435deg);
+	}
+	100% {
+		-moz-transform: rotate(810deg);
+	}
+}
+
+@keyframes cssload-dot-rotate-4 {
+	0% {
+		transform: rotate(705deg);
+	}
+	100% {
+		transform: rotate(1080deg);
+	}
+}
+
+@-o-keyframes cssload-dot-rotate-4 {
+	0% {
+		-o-transform: rotate(705deg);
+	}
+	100% {
+		-o-transform: rotate(1080deg);
+	}
+}
+
+@-ms-keyframes cssload-dot-rotate-4 {
+	0% {
+		-ms-transform: rotate(705deg);
+	}
+	100% {
+		-ms-transform: rotate(1080deg);
+	}
+}
+
+@-webkit-keyframes cssload-dot-rotate-4 {
+	0% {
+		-webkit-transform: rotate(705deg);
+	}
+	100% {
+		-webkit-transform: rotate(1080deg);
+	}
+}
+
+@-moz-keyframes cssload-dot-rotate-4 {
+	0% {
+		-moz-transform: rotate(705deg);
+	}
+	100% {
+		-moz-transform: rotate(1080deg);
+	}
+}
