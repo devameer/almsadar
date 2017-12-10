@@ -25,6 +25,6 @@
   * [Bootstrap](http://getbootstrap.com/).
   * [WOW JS](http://mynameismatthieu.com/WOW/). 
   * [Ion.RangeSlider](http://ionden.com/a/plugins/ion.rangeSlider/en.html).
-  * [lightslider](http://sachinchoolur.github.io/lightslider/index.html). 
- 
+  * [jquery.nicescroll](https://github.com/inuyaksa/jquery.nicescroll). 
+
 
